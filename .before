@@ -1,0 +1,6 @@
+#!/bin/bash
+set -euo pipefail
+
+source .env
+
+kubectl apply -f k8s/namespace.yaml
